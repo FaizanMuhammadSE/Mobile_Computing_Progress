@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <group android:checkableBehavior="single">
+          <item android:id="@+id/icon1"
+              android:icon="@drawable/accountree"
+              android:title="Account"/>
+
+          <item android:id="@+id/icon2"
+              android:icon="@drawable/time"
+              android:title="Time"/>
+
+      </group>
+
+      <item android:title="Reading">
+          <menu>
+              <group android:checkableBehavior="single">
+                  <item
+                     android:id="@+id/icon3"
+                      android:icon="@drawable/menubook"
+                      android:title="Menu Book"/>
+                  <item
+                      android:id="@+id/icon4"
+                      android:icon="@drawable/librarybooks"
+                      android:title="Library Books"/>
+
+                  <item
+                      android:id="@+id/icon5"
+                      android:icon="@drawable/collection"
+                      android:title="Books Collection"/>
+              </group>
+          </menu>
+      </item>
+
+
+    <item android:title="Comments">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/icon6"
+                    android:icon="@drawable/clearall"
+                    android:title="Clear All"/>
+                <item
+                    android:id="@+id/icon7"
+                    android:icon="@drawable/cloud"
+                    android:title="Cloud"/>
+
+                <item
+                    android:id="@+id/icon8"
+                    android:icon="@drawable/feedback"
+                    android:title="FeedBack"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
